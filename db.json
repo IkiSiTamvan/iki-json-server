@@ -332,5 +332,199 @@
       "cogs": 4800000,
       "total": 6660000
     }
+  },
+  "qj": {
+    "result": [
+      {
+        "id": 1,
+        "kode": "QJ-001",
+        "kd_profit_center": "PC-QJ-001",
+        "no_transaksi": "TRX-QJ-001",
+        "tanggal_transaksi": "2025-11-01",
+        "type_profit_center": "Type A",
+        "tanggal_penarikan": "2025-11-02",
+        "kode_customer": "CUST-QJ-001",
+        "kode_vendor": "VEND-QJ-001",
+        "ppn_keluaran": 110000,
+        "ppn_masukan": 100000,
+        "dpp": 1000000,
+        "cogs": 800000,
+        "total": 1110000,
+        "ap_vendor": "AP-VEND-QJ-001",
+        "no_referensi": "REF-QJ-001",
+        "no_dokument": "DOC-QJ-001"
+      },
+      {
+        "id": 2,
+        "kode": "QJ-002",
+        "kd_profit_center": "PC-QJ-002",
+        "no_transaksi": "TRX-QJ-002",
+        "tanggal_transaksi": "2025-11-02",
+        "type_profit_center": "Type B",
+        "tanggal_penarikan": "2025-11-03",
+        "kode_customer": "CUST-QJ-002",
+        "kode_vendor": "VEND-QJ-002",
+        "ppn_keluaran": 220000,
+        "ppn_masukan": 200000,
+        "dpp": 2000000,
+        "cogs": 1600000,
+        "total": 2220000,
+        "ap_vendor": "AP-VEND-QJ-002",
+        "no_referensi": "REF-QJ-002",
+        "no_dokument": "DOC-QJ-002"
+      },
+      {
+        "id": 3,
+        "kode": "QJ-003",
+        "kd_profit_center": "PC-QJ-003",
+        "no_transaksi": "TRX-QJ-003",
+        "tanggal_transaksi": "2025-11-03",
+        "type_profit_center": "Type C",
+        "tanggal_penarikan": "2025-11-04",
+        "kode_customer": "CUST-QJ-003",
+        "kode_vendor": "VEND-QJ-003",
+        "ppn_keluaran": 330000,
+        "ppn_masukan": 300000,
+        "dpp": 3000000,
+        "cogs": 2400000,
+        "total": 3330000,
+        "ap_vendor": "AP-VEND-QJ-003",
+        "no_referensi": "REF-QJ-003",
+        "no_dokument": "DOC-QJ-003"
+      }
+    ],
+    "responseData": {
+      "responseMsg": "Success",
+      "responseCode": "00"
+    },
+    "metaData": {
+      "ppnKeluaran": 660000,
+      "ppnMasukan": 600000,
+      "dpp": 6000000,
+      "cogs": 4800000,
+      "total": 6660000
+    }
+  },
+  "zu": {
+    "result": [
+      {
+        "id": 1,
+        "kd_profit_center": "PC-ZU-001",
+        "transaction_id": "TRX-ZU-001",
+        "tanggal": "2025-11-01",
+        "reference_number": "REF-ZU-001",
+        "kode_customer": "CUST-ZU-001",
+        "kode_vendor": "VEND-ZU-001",
+        "kode_vendor_ongkir": "VEND-ONGKIR-001",
+        "total": 1210000,
+        "dpp": 1000000,
+        "ppn_keluaran": 110000,
+        "ppn_masukan": 100000,
+        "ongkir": 50000,
+        "cogs": 800000,
+        "cogs_kons": 700000,
+        "ap_vendor": "AP-VEND-ZU-001",
+        "document_id": "DOC-ZU-001"
+      },
+      {
+        "id": 2,
+        "kd_profit_center": "PC-ZU-002",
+        "transaction_id": "TRX-ZU-002",
+        "tanggal": "2025-11-02",
+        "reference_number": "REF-ZU-002",
+        "kode_customer": "CUST-ZU-002",
+        "kode_vendor": "VEND-ZU-002",
+        "kode_vendor_ongkir": "VEND-ONGKIR-002",
+        "total": 2420000,
+        "dpp": 2000000,
+        "ppn_keluaran": 220000,
+        "ppn_masukan": 200000,
+        "ongkir": 100000,
+        "cogs": 1600000,
+        "cogs_kons": 1400000,
+        "ap_vendor": "AP-VEND-ZU-002",
+        "document_id": "DOC-ZU-002"
+      },
+      {
+        "id": 3,
+        "kd_profit_center": "PC-ZU-003",
+        "transaction_id": "TRX-ZU-003",
+        "tanggal": "2025-11-03",
+        "reference_number": "REF-ZU-003",
+        "kode_customer": "CUST-ZU-003",
+        "kode_vendor": "VEND-ZU-003",
+        "kode_vendor_ongkir": "VEND-ONGKIR-003",
+        "total": 3630000,
+        "dpp": 3000000,
+        "ppn_keluaran": 330000,
+        "ppn_masukan": 300000,
+        "ongkir": 150000,
+        "cogs": 2400000,
+        "cogs_kons": 2100000,
+        "ap_vendor": "AP-VEND-ZU-003",
+        "document_id": "DOC-ZU-003"
+      }
+    ],
+    "responseData": {
+      "responseMsg": "Success",
+      "responseCode": "00"
+    },
+    "metaData": {
+      "total": 7260000,
+      "dpp": 6000000,
+      "ppnKeluaran": 660000,
+      "ppnMasukan": 600000,
+      "ongkir": 300000,
+      "cogs": 4800000,
+      "cogsKons": 4200000
+    }
+  },
+  "yo": {
+    "result": [
+      {
+        "id": 1,
+        "regional_name": "Jabodetabek",
+        "kode_customer": "CUST-YO-001",
+        "kode_area": "AREA-001",
+        "no_kwitansi": "KW-001",
+        "tanggal_kwitansi": "2025-11-01",
+        "no_faktur_pajak": "FP-001",
+        "document_id": "DOC-YO-001",
+        "total_kwitansi": 1210000,
+        "ppn_keluaran": 110000
+      },
+      {
+        "id": 2,
+        "regional_name": "Jawa Barat",
+        "kode_customer": "CUST-YO-002",
+        "kode_area": "AREA-002",
+        "no_kwitansi": "KW-002",
+        "tanggal_kwitansi": "2025-11-02",
+        "no_faktur_pajak": "FP-002",
+        "document_id": "DOC-YO-002",
+        "total_kwitansi": 2420000,
+        "ppn_keluaran": 220000
+      },
+      {
+        "id": 3,
+        "regional_name": "Jawa Tengah",
+        "kode_customer": "CUST-YO-003",
+        "kode_area": "AREA-003",
+        "no_kwitansi": "KW-003",
+        "tanggal_kwitansi": "2025-11-03",
+        "no_faktur_pajak": "FP-003",
+        "document_id": "DOC-YO-003",
+        "total_kwitansi": 3630000,
+        "ppn_keluaran": 330000
+      }
+    ],
+    "responseData": {
+      "responseMsg": "Success",
+      "responseCode": "00"
+    },
+    "metaData": {
+      "totalKwitansi": 7260000,
+      "ppnKeluaran": 660000
+    }
   }
 }
